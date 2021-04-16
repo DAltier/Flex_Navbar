@@ -1,0 +1,45 @@
+.container{
+    margin: 100px;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+}
+.center-box{
+    background-color: rgb(43, 7, 128);
+    height: 200px;
+    width: 900px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-item{
+    background-color: wheat;
+    height: 80px;
+    width: 80px;
+}
+.nav{
+    background-color: rgb(67, 140, 235);
+    font-family: 'Montserrat';
+    color: white;
+    height: 120px;
+    width: 900px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+ul{
+	min-width: 400px;
+	list-style: none;
+    display: flex;
+}
+ul li{
+    flex: 1;
+	display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
